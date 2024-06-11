@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.peliharaan.RegisterController">
+   <children>
+      <VBox layoutX="-9.0" layoutY="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="684.0">
+         <children>
+            <AnchorPane prefHeight="606.0" prefWidth="684.0">
+               <children>
+                  <TextField fx:id="txtUser" layoutX="232.0" layoutY="158.0" prefHeight="26.0" prefWidth="223.0" />
+                  <Label layoutX="317.0" layoutY="140.0" text="Username" />
+                  <TextField fx:id="txtPass" layoutX="232.0" layoutY="217.0" prefHeight="26.0" prefWidth="223.0" />
+                  <Label layoutX="317.0" layoutY="199.0" text="Password" />
+                  <Button fx:id="btnDaftar" layoutX="358.0" layoutY="363.0" mnemonicParsing="false" onAction="#Daftar" prefHeight="26.0" prefWidth="96.0" text="Daftar" />
+                  <TextField fx:id="txtNama" layoutX="230.0" layoutY="271.0" prefHeight="26.0" prefWidth="223.0" />
+                  <Label alignment="CENTER" layoutX="326.0" layoutY="253.0" text="Nama" />
+                  <TextField fx:id="txtHP" layoutX="229.0" layoutY="323.0" prefHeight="26.0" prefWidth="223.0" />
+                  <Label alignment="CENTER" layoutX="325.0" layoutY="305.0" text="No HP" />
+                  <Button fx:id="btnKembali" layoutX="232.0" layoutY="363.0" mnemonicParsing="false" onAction="#Kembali" prefHeight="26.0" prefWidth="96.0" text="Kembali" />
+                  <VBox layoutY="1.0" prefHeight="549.0" prefWidth="100.0" style="-fx-background-color: #DD5746;" />
+                  <VBox alignment="TOP_RIGHT" layoutX="584.0" layoutY="1.0" prefHeight="549.0" prefWidth="100.0" style="-fx-background-color: #DD5746;" />
+                  <Label layoutX="187.0" layoutY="80.0" text="Masukkan Data Diri Anda" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
